@@ -1,0 +1,51 @@
+<!-- div.container.d-flex.justify-content-between y press enter -->
+<div class="container d-flex justify-content-between">
+
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{persona.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre: {{persona.nombre}}</h6>
+      <ul>
+        <li>País: {{persona.pais}}</li>
+        <li>Peso: {{persona.pesoenKG}} KG</li>
+        <li>Rival: {{persona.rival}}</li>
+        <li>{{esdebut(persona)}}</li>
+        <li>Peleas Ganadas: {{persona.win}} </li>
+        <li>Peleas Perdidas: {{persona.lose}}</li>
+      </ul>
+      <p>esta es el jugador con DATOS PUROS</p>
+    </div>
+  </div>
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3"> {{jugador.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre: {{jugador.nombre}}</h6>
+      <ul>
+        <li>País:{{jugador.pais}}</li>
+        <li>Peso: {{jugador.pesoenKG}} KG</li>
+        <li>Rival: {{jugador.rival}}</li>
+        <li>{{esdebut(jugador)}}</li>
+        <li>Peleas Ganadas: {{jugador.win}}</li>
+        <li>Peleas Perdidas: {{jugador.lose}}</li>
+      </ul>
+      <p>esta es el jugador con Datos con interface</p>
+    </div>
+  </div>
+
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{miParticipante.jugador.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre: {{miParticipante.jugador.nombre}}</h6>
+      <ul>
+        <li>País: {{miParticipante.jugador.pais}}</li>
+        <li>Peso:{{miParticipante.jugador.pesoenKG}} KG: </li>
+        <li>Rival: {{miParticipante.jugador.rival}}</li>
+        <li>{{esdebut(miParticipante.jugador)}}</li>
+        <li>Peleas Ganadas: {{miParticipante.jugador.win}}</li>
+        <li>Peleas Perdidas: {{miParticipante.jugador.lose}}</li>
+      </ul>
+      <p>esta es el jugador con Con Clase</p>
+    </div>
+  </div>
+
+</div>

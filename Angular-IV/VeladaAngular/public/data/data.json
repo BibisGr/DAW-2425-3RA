@@ -1,0 +1,133 @@
+{
+  "evento": "La Velada del Año 5",
+  "fecha": "2025-07-26",
+  "ubicacion": "Estadio La Cartuja, Sevilla, España",
+  "participantes": [
+    {
+      "nombre": "David García",
+      "alias": "TheGrefg",
+      "pais": "España",
+      "peso": "75 kg",
+      "record": "Debut",
+      "rival": "WestCol",
+      "imagen": "images/individuals/01.png"
+    },
+    {
+      "nombre": "Luis Villa",
+      "alias": "WestCol",
+      "pais": "Colombia",
+      "peso": "78 kg",
+      "record": "Debut",
+      "rival": "TheGrefg",
+      "imagen": "images/individuals/02.png"
+    },
+    {
+      "nombre": "Rocío López",
+      "alias": "RoRo",
+      "pais": "España",
+      "peso": "60 kg",
+      "record": "Debut",
+      "rival": "Abby",
+      "imagen": "images/individuals/14.png"
+    },
+    {
+      "nombre": "Abigail Martínez",
+      "alias": "Abby",
+      "pais": "México",
+      "peso": "62 kg",
+      "record": "Debut",
+      "rival": "RoRo",
+      "imagen": "images/individuals/13.png"
+    },
+    {
+      "nombre": "Víctor Mélida",
+      "alias": "Viruzz",
+      "pais": "España",
+      "peso": "85 kg",
+      "record": "2-1",
+      "rival": "Tomás Mazza",
+      "imagen": "images/individuals/11.png"
+    },
+    {
+      "nombre": "Tomás Mazza",
+      "alias": "Tomiii",
+      "pais": "Argentina",
+      "peso": "83 kg",
+      "record": "Debut",
+      "rival": "Viruzz",
+      "imagen": "images/individuals/12.png"
+    },
+    {
+      "nombre": "Pereira7",
+      "alias": "Pereira7",
+      "pais": "España",
+      "peso": "70 kg",
+      "record": "Debut",
+      "rival": "Rivaldios",
+      "imagen": "images/individuals/03.png"
+    },
+    {
+      "nombre": "Rivaldios",
+      "alias": "Rivaldios",
+      "pais": "México",
+      "peso": "72 kg",
+      "record": "Debut",
+      "rival": "Pereira7",
+      "imagen": "images/individuals/04.png"
+    },
+    {
+      "nombre": "Perxitaa",
+      "alias": "Perxitaa",
+      "pais": "España",
+      "peso": "90 kg",
+      "record": "Debut",
+      "rival": "Gaspi",
+      "imagen": "images/individuals/05.png"
+    },
+    {
+      "nombre": "Gaspar Gómez",
+      "alias": "Gaspi",
+      "pais": "España",
+      "peso": "88 kg",
+      "record": "Debut",
+      "rival": "Perxitaa",
+      "imagen": "images/individuals/06.png"
+    },
+    {
+      "nombre": "Andoni",
+      "alias": "Andoni",
+      "pais": "España",
+      "peso": "77 kg",
+      "record": "Debut",
+      "rival": "Carlos Belcast",
+      "imagen": "images/individuals/07.png"
+    },
+    {
+      "nombre": "Carlos Belcast",
+      "alias": "Carlos Belcast",
+      "pais": "México",
+      "peso": "79 kg",
+      "record": "Debut",
+      "rival": "Andoni",
+      "imagen": "images/individuals/08.png"
+    },
+    {
+      "nombre": "Alana Flores",
+      "alias": "Alana",
+      "pais": "México",
+      "peso": "65 kg",
+      "record": "Debut",
+      "rival": "Ari Geli",
+      "imagen": "images/individuals/09.png"
+    },
+    {
+      "nombre": "Ariadna Geli",
+      "alias": "Ari Geli",
+      "pais": "España",
+      "peso": "64 kg",
+      "record": "Debut",
+      "rival": "Alana",
+      "imagen": "images/individuals/10.png"
+    }
+  ]
+}

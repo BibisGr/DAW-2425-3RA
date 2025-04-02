@@ -1,1 +1,27 @@
-<p>jugadores works!</p>
+<div class="container d-flex justify-content-between flex-column flex-wrap">
+  <h1 class="display-2">{{superheroes.SquadName}}</h1>
+  <h1 class="display-4">{{superheroes.baseSecreta}}</h1>
+  <h1 class="display-4">{{superheroes.city}}</h1>
+  <!-- <h1 class="display-2">{{superheroes.miembros}}</h1> -->
+
+  <div class="container d-flex justify-content-between flex-wrap">
+    @for (heroe of superheroes.miembros; track $index) {
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{heroe.alias}}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{heroe.identidadSecreta}}</h6>
+        <!-- <p class="card-text">{{heroe.heroeactivo}}</p> -->
+         @if (heroe.heroeactivo) { <p class="card-text">Héroe Activo</p>}
+         @else {<p class="card-text">Heroe Retirado</p>}
+        <ul>
+          @for (poder of heroe.superpoderes; track $index) {
+          <li class="list-group-item">{{poder}}</li>
+          }
+        </ul>
+      </div>
+    </div>
+    }
+  </div>
+
+
+</div>

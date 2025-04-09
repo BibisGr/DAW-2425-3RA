@@ -1,3 +1,2 @@
-Paso 1: comprobar el proveedor de HTTP
-Paso 2: crear el servicio
-Paso 3: obtener datos en el componente
+1. actualizar la URL
+2.método nuevo en el servicio para adquirir un participante

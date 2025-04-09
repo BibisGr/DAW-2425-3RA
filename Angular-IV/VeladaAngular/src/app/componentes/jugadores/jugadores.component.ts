@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Player } from '../../common/player';
 import { DataService } from '../../servicios/data.service';
-import { error } from 'console';
+import { Route, RouterLink, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-jugadores',
-  imports: [],
+  imports: [RouterModule, RouterLink],
   templateUrl: './jugadores.component.html',
   styleUrl: './jugadores.component.css'
 })

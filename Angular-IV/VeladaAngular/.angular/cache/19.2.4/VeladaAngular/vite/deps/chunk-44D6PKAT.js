@@ -24,7 +24,6 @@ import {
   NgModule,
   NgModuleRef$1,
   NgZone,
-  Observable,
   Optional,
   PLATFORM_ID,
   PendingTasksInternal,
@@ -34,25 +33,16 @@ import {
   ResourceImpl,
   ResourceStatus,
   RuntimeError,
-  Subject,
   TemplateRef,
   TransferState,
   Version,
   ViewContainerRef,
-  __async,
-  __objRest,
-  __spreadProps,
-  __spreadValues,
   assertInInjectionContext,
   booleanAttribute,
   computed,
-  concatMap,
   createNgModule,
-  filter,
-  finalize,
   findLocaleData,
   formatRuntimeError,
-  from,
   getLocalePluralCase,
   inject,
   isPromise,
@@ -60,16 +50,12 @@ import {
   linkedSignal,
   makeEnvironmentProviders,
   makeStateKey,
-  map,
   numberAttribute,
-  of,
   performanceMarkFeature,
   runInInjectionContext,
   setClassMetadata,
   signal,
   stringify,
-  switchMap,
-  tap,
   truncateMiddle,
   untracked,
   unwrapSafeValue,
@@ -83,7 +69,23 @@ import {
   ɵɵinject,
   ɵɵinjectAttribute,
   ɵɵstyleProp
-} from "./chunk-VEFH4ENC.js";
+} from "./chunk-56PPHEMJ.js";
+import {
+  Observable,
+  Subject,
+  __async,
+  __objRest,
+  __spreadProps,
+  __spreadValues,
+  concatMap,
+  filter,
+  finalize,
+  from,
+  map,
+  of,
+  switchMap,
+  tap
+} from "./chunk-S35MAB2V.js";
 
 // node_modules/@angular/common/fesm2022/common.mjs
 var _DOM = null;
@@ -7464,4 +7466,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-AFTPGEFS.js.map
+//# sourceMappingURL=chunk-44D6PKAT.js.map

@@ -53,7 +53,6 @@ import {
   makeStateKey,
   numberAttribute,
   performanceMarkFeature,
-  require_cjs,
   require_operators,
   runInInjectionContext,
   setClassMetadata,
@@ -72,7 +71,10 @@ import {
   ɵɵinject,
   ɵɵinjectAttribute,
   ɵɵstyleProp
-} from "./chunk-RMUIWRBI.js";
+} from "./chunk-27ASQ7CV.js";
+import {
+  require_cjs
+} from "./chunk-AQYIT73X.js";
 import {
   __async,
   __objRest,
@@ -7408,4 +7410,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-DPPE5ARJ.js.map
+//# sourceMappingURL=chunk-YEPVRPEA.js.map

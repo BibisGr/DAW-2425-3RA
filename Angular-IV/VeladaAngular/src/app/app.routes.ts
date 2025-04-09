@@ -14,6 +14,7 @@ export const routes: Routes = [
   { path: 'navbar', component: NavbarComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'jugador', component: JugadorComponent },
+  { path: 'jugador/:alias', component: JugadorComponent },
   { path: 'jugadores', component: JugadoresComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },

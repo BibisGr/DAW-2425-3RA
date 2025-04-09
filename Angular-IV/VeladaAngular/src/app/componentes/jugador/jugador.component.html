@@ -1,5 +1,5 @@
 <!-- div.container.d-flex.justify-content-between y press enter -->
-<div class="container d-flex justify-content-between">
+<!-- <div class="container d-flex justify-content-between">
 
   <div class="card m-3" style="width: 25rem;">
     <div class="card-body">
@@ -48,4 +48,24 @@
     </div>
   </div>
 
+</div> -->
+
+<div class="container">
+  <div class="row align-items-md-stretch">
+    <div class="col-md-6">
+      <div class="h-100 p-5 text-bg-dark rounded-3">
+        <h1 class="display-3">{{participanteONE?.alias}}</h1>
+        <h2 class="display-6">Nombre: {{participanteONE?.nombre}}</h2>
+        <h2 class="display-6">País: {{participanteONE?.pais}}</h2>
+        <h2 class="display-6">Peso: {{participanteONE?.peso}}</h2>
+        <h2 class="display-6">Record: {{participanteONE?.record}}</h2>
+        <h2 class="display-6">Rival: {{participanteONE?.rival}}</h2>
+        </div>
+    </div>
+    <div class="col-md-6">
+      <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+        <img src="{{participanteONE?.imagen}}" alt="">
+        </div>
+    </div>
+  </div>
 </div>

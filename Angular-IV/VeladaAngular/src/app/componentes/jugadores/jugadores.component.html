@@ -42,7 +42,7 @@
         <p class="card-text">Peso: {{player.peso}}</p>
         <p class="card-text">Records: {{player.record}}</p>
         <p class="card-text">Rival: {{player.rival}}</p>
-        <a href="#" class="btn btnpink">Ver Jugador</a>
+        <a [routerLink]="['/jugador' , player.alias]" class="btn btnpink">Ver Jugador</a>
       </div>
     </div>
     }
